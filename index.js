@@ -164,3 +164,7 @@ console.log("сумма четных чисел масива равна : " + ev
 //  17
 let myFevoriteHobby = ["I", "like", "to", "eat!"];
 console.log(...myFevoriteHobby)
+
+//  18
+let numss = ["one", "two", "three"]
+console.log(numss.reverse())
