@@ -111,3 +111,28 @@ console.log(perimeterResult);
 for (let i = 0; i <= 33; i++) {
   if (i % 3 === 0) console.log(i);
 }
+
+//  9
+
+//  10
+
+//  11
+let total = 0;
+for (let i = 0; i <= 25; i++) {
+  total = total + i;
+}
+console.log(`сумма чисел цикла ровняется : ${total}`);
+
+//  12
+for (let i = 0; i <= 20; i++) {
+  if (i % 2 === 0) {
+    console.log(i);
+  }
+}
+
+//  13
+for (let i = 0; i <= 15; i++) {
+  if (i % 2 !== 0) {
+    console.log(i);
+  }
+}
