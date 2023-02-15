@@ -163,8 +163,23 @@ console.log("сумма четных чисел масива равна : " + ev
 
 //  17
 let myFevoriteHobby = ["I", "like", "to", "eat!"];
-console.log(...myFevoriteHobby)
+console.log(...myFevoriteHobby);
 
 //  18
-let numss = ["one", "two", "three"]
-console.log(numss.reverse())
+let numss = ["one", "two", "three"];
+console.log(numss.reverse());
+
+//  19
+let sayHallo = ["aita", "chyka", "sayd"];
+for (let i = 0; i < sayHallo.length; i++) {
+  console.log("hallo " + sayHallo[i]);
+}
+
+//  20
+let squarNums = [2, 3, 4, 5];
+let sqResult = 0;
+for (let i = 0; i < squarNums.length; i++) {
+  sqResult = squarNums[i] * squarNums[i];
+  console.log(`квадраты чисел ${squarNums[i]} равны : ` + sqResult);
+}
+
