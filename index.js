@@ -189,5 +189,17 @@ for (let i = 0; i < squarNums.length; i++) {
 }
 
 //  21
-
 let animals = ["cat", "dog", "snake"]
+let choosAnimals = ["cat"]
+for(let i = 0;i < animals.length;i++){
+  for(let j = 0;j < choosAnimals.length;j++){
+    if(choosAnimals[j] === animals[i]){
+      console.log(true)
+    }
+    else{
+      console.log(false)
+    }
+  }
+}
+
+
