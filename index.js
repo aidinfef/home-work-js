@@ -66,3 +66,8 @@ function printVolume(height, radius) {
   console.log(result);
 }
 printVolume(5, 5);
+
+function getLength(a) {
+  console.log(`длинна строки равна ${a.length}`);
+}
+getLength("rgtere");
