@@ -149,4 +149,18 @@ let culc = 0;
 for (let i = 0; i < number.length; i++) {
   culc = culc + number[i];
 }
-console.log(culc);
+console.log("сумма масива равна : " + culc);
+
+//  16
+let masiv = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+let evenSum = 0;
+for (let i = 0; i < masiv.length; i++) {
+  if (i % 2 !== 0) {
+    evenSum = evenSum + masiv[i];
+  }
+}
+console.log("сумма четных чисел масива равна : " + evenSum);
+
+//  17
+let myFevoriteHobby = ["I", "like", "to", "eat!"];
+console.log(...myFevoriteHobby)
