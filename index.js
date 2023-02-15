@@ -55,8 +55,8 @@
 // // cat - true
 // // parrot - false
 
-function sayMyName(a, b) {
-  let result = `my name is ${a}${b}`;
+function sayMyName(name, surname) {
+  let result = `my name is ${name}${surname}`;
   console.log(result);
 }
 sayMyName("aidin ", "almanbetov");
@@ -67,7 +67,16 @@ function printVolume(height, radius) {
 }
 printVolume(5, 5);
 
-function getLength(a) {
-  console.log(`длинна строки равна ${a.length}`);
+function getLength(str) {
+  console.log(`длинна строки равна ${str.length}`);
 }
 getLength("rgtere");
+
+function evenOrNot(number) {
+  if (number % 2 === 0) {
+    console.log(`число ${number} четное`);
+  } else {
+    console.log(`число ${number} не четное`);
+  }
+}
+evenOrNot(5);
