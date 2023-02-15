@@ -80,3 +80,9 @@ function evenOrNot(number) {
   }
 }
 evenOrNot(5);
+
+function getSquareNumber(number) {
+  return `квадратом числа ${number} является число ${number * number}`;
+}
+let result = getSquareNumber(5);
+console.log(result);
