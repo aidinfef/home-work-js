@@ -115,6 +115,11 @@ for (let i = 0; i <= 33; i++) {
 //  9
 
 //  10
+let squareZ = 0;
+for (let i = 0; i <= 10; i++) {
+  squareZ = i * i;
+  console.log(squareZ);
+}
 
 //  11
 let total = 0;
@@ -183,3 +188,6 @@ for (let i = 0; i < squarNums.length; i++) {
   console.log(`квадраты чисел ${squarNums[i]} равны : ` + sqResult);
 }
 
+//  21
+
+let animals = ["cat", "dog", "snake"]
