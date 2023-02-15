@@ -142,3 +142,11 @@ let str = ["old", "old"];
 str.unshift("new", "new");
 str.push("new", "new", "new");
 console.log(str);
+
+// 15
+let number = [2, 3, 4, 5, 5];
+let culc = 0;
+for (let i = 0; i < number.length; i++) {
+  culc = culc + number[i];
+}
+console.log(culc);
