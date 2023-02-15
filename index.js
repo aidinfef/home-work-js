@@ -55,23 +55,27 @@
 // // cat - true
 // // parrot - false
 
+//  1
 function sayMyName(name, surname) {
   let result = `my name is ${name}${surname}`;
   console.log(result);
 }
 sayMyName("aidin ", "almanbetov");
 
+//  2
 function printVolume(height, radius) {
   let result = `обьем радиуса равен ` + height * radius;
   console.log(result);
 }
 printVolume(5, 5);
 
+//  3
 function getLength(str) {
   console.log(`длинна строки равна ${str.length}`);
 }
 getLength("rgtere");
 
+//  4
 function evenOrNot(number) {
   if (number % 2 === 0) {
     console.log(`число ${number} четное`);
@@ -81,8 +85,16 @@ function evenOrNot(number) {
 }
 evenOrNot(5);
 
+//  5
 function getSquareNumber(number) {
   return `квадратом числа ${number} является число ${number * number}`;
 }
 let result = getSquareNumber(5);
 console.log(result);
+
+//  6
+function getRoot(a) {
+  return `корнем числа ${a} является ` + Math.sqrt(a);
+}
+let squareResult = getRoot(5);
+console.log(squareResult);
