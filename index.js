@@ -64,37 +64,47 @@ sayMyName("aidin ", "almanbetov");
 
 //  2
 function printVolume(height, radius) {
-  let result = `обьем радиуса равен ` + height * radius;
+  let result = `обьем радиуса равен : ` + height * radius;
   console.log(result);
 }
 printVolume(5, 5);
 
 //  3
 function getLength(str) {
-  console.log(`длинна строки равна ${str.length}`);
+  console.log(`длинна строки равна : ${str.length}`);
 }
 getLength("rgtere");
 
 //  4
 function evenOrNot(number) {
   if (number % 2 === 0) {
-    console.log(`число ${number} четное`);
+    console.log(`число ${number} : четное`);
   } else {
-    console.log(`число ${number} не четное`);
+    console.log(`число ${number} : не четное`);
   }
 }
 evenOrNot(5);
 
 //  5
 function getSquareNumber(number) {
-  return `квадратом числа ${number} является число ${number * number}`;
+  return `квадратом числа ${number} является число : ${number * number}`;
 }
 let result = getSquareNumber(5);
 console.log(result);
 
 //  6
-function getRoot(a) {
-  return `корнем числа ${a} является ` + Math.sqrt(a);
+function getRoot(num) {
+  return `корнем числа ${num} является : ` + Math.sqrt(num);
 }
 let squareResult = getRoot(5);
 console.log(squareResult);
+
+//  7
+function getPerimeter(a, b, c, d, e) {
+  let per = a + b + c + d + e;
+  return `периметр прямоугольника равен : ` + per;
+}
+let perimeterResult = getPerimeter(5, 5, 5, 5, 5);
+console.log(perimeterResult);
+
+//  8
