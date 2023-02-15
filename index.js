@@ -108,3 +108,6 @@ let perimeterResult = getPerimeter(5, 5, 5, 5, 5);
 console.log(perimeterResult);
 
 //  8
+for (let i = 0; i <= 33; i++) {
+  if (i % 3 === 0) console.log(i);
+}
