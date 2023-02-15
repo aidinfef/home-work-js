@@ -136,3 +136,9 @@ for (let i = 0; i <= 15; i++) {
     console.log(i);
   }
 }
+
+//  14
+let str = ["old", "old"];
+str.unshift("new", "new");
+str.push("new", "new", "new");
+console.log(str);
