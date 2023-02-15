@@ -60,3 +60,9 @@ function sayMyName(a, b) {
   console.log(result);
 }
 sayMyName("aidin ", "almanbetov");
+
+function printVolume(height, radius) {
+  let result = `обьем радиуса равен ` + height * radius;
+  console.log(result);
+}
+printVolume(5, 5);
