@@ -113,6 +113,13 @@ for (let i = 0; i <= 33; i++) {
 }
 
 //  9
+let total = 1;
+for (let i = 1; i <= 8; i++) {
+  total = total * i;
+}
+console.log(`факториал числа 8 равняется : `+total);
+
+// 7! = 7×6×5×4×3×2×1 = 5040
 
 //  10
 let squareZ = 0;
@@ -122,11 +129,11 @@ for (let i = 0; i <= 10; i++) {
 }
 
 //  11
-let total = 0;
+let total1 = 0;
 for (let i = 0; i <= 25; i++) {
-  total = total + i;
+  total1 = total1 + i;
 }
-console.log(`сумма чисел цикла ровняется : ${total}`);
+console.log(`сумма чисел цикла ровняется : ${total1}`);
 
 //  12
 for (let i = 0; i <= 20; i++) {
