@@ -57,7 +57,7 @@
 
 //  1
 function sayMyName(name, surname) {
-  let result = `my name is ${name}${surname}`;
+  let nameResult = `my name is ${name}${surname}`;
   console.log(result);
 }
 sayMyName("aidin ", "almanbetov");
